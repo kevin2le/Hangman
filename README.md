@@ -3,13 +3,12 @@
 Test your vocabulary when it comes to the delicious sweetness that is ice cream. The mystery word is represented by dashes that represents the number of letters in the mystery letter. Words will be seperated into 3 catagories that will be chosen at random. Player will have up to 6 wrong guess before they lose the game.
 
 Start of game:
-![Imgur](http://i.imgur.com/4XLgY3V.png)
+<img src="http://i.imgur.com/4XLgY3V.png" width="300">
 
 What starts to happen when you start guessing the wrong letters
-![Imgur](http://i.imgur.com/ENSPV7H.png)
-
+<img src="http://i.imgur.com/ENSPV7H.png" width="300">
 What happends when you guess all the wrong answers
-![Imgur](http://i.imgur.com/XIysW09.png)
+<img src="http://i.imgur.com/XIysW09.png" width="300">
 <!--<!--Technologies Used: List of the technologies used.-->
 ## Technologies:
 * HTML 
