@@ -3,7 +3,7 @@ var guess;
 var letterWord;
 var numWrong;
 var letterSelected; 
-var words=[["CHOCOLATE", "VANILLA", "STRAWBERRY", "NEAPOLITAN"],["MILKSHAKES", "SUNDAES", "CAKE"],["SPRINKLES","COOKIES", "CANDY", "PEANUTS"]];
+var words=[["CHOCOLATE", "VANILLA", "STRAWBERRY", "NEAPOLITAN", "MATCHA"],["MILKSHAKES", "SUNDAES", "CAKE"],["SPRINKLES","COOKIES", "MATCHA", "PEANUTS"]];
 var wordChoosen;
 var messages;
 var endGame;
@@ -86,7 +86,7 @@ function checkWin(){
 function render() {
     $('.images').hide();
     $guess.html(guess);
-    $('#wrong').html(numWrong ? 'Wrong Guesses: <span>' + numWrong + '</span>' : '');
+    $('#wrong').html(numWrong ? ' When the score hits 6 it is over!: <span>' + numWrong + '</span>' : '');
     $img.attr('src','images/img' + numWrong + '.png');
     
 }
