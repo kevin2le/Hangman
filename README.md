@@ -14,6 +14,7 @@ What happends when you guess all the wrong answers
 
 <img src="http://i.imgur.com/XIysW09.png" width="300">
 <!--<!--Technologies Used: List of the technologies used.-->
+
 ## Technologies:
 * HTML 
 * CSS
