@@ -7,6 +7,7 @@ Start of game:
 
 What starts to happen when you start guessing the wrong letters
 <img src="http://i.imgur.com/ENSPV7H.png" width="300">
+
 What happends when you guess all the wrong answers
 <img src="http://i.imgur.com/XIysW09.png" width="300">
 <!--<!--Technologies Used: List of the technologies used.-->
