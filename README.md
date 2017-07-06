@@ -21,7 +21,9 @@ What happends when you guess all the wrong answers
 * jQuery 
 * Javascript 
 
+## Link to the Game
 
+[Gametime!](https://kevin2le.github.io/Hangman/)
 
 <!--Getting Started: Installation instructions. For your game, this section will include the link to your hosted game's site.
 Next Steps: Unsolved problems and/or planned features.-->
