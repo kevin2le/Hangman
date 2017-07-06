@@ -1,6 +1,7 @@
 h1 {
     text-align: center;
     font-family: 'Exo', sans-serif;
+    color: darkmagenta;
 }
 
 button {
@@ -16,7 +17,9 @@ div{
 }
 table {
     text-align: center;
-    margin : 0px auto
+    margin : 0px auto;
+    border-collapse: collapse;
+    
 }
 td {
     width: 50px;
@@ -24,4 +27,58 @@ td {
     padding: 8px;
     text-align: center;
     border: 1px solid darkgrey;
+}
+
+#guess {
+    letter-spacing: 10px;
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+}
+.imgur {
+    margin: auto;
+}
+
+#resets{
+    text-align: center;
+    margin: 0px auto;
+    font-size:20px;
+}
+#wrong {
+    font: 15px
+}
+
+p {
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font: 20px px;
+    font-weight: bold;
+
+}
+
+body{
+    background-image: url("http://i.imgur.com/e5ntpgt.jpg");
+}
+
+img {
+    width: 25%;
+    height: 25%
+}
+
+.wrapper {
+    background-color: rgba(249, 236, 242, 0.8);
+    font-weight: bold;
+    height: 1000%;
+    border-radius: 25px;
+}
+
+.ltrButton {
+    font-family: 'Exo', sans-serif;
+}
+
+.message {
+    color: magenta;
+}
+
+#selectCatagory {
+    color: palevioletred;
 }
