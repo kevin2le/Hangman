@@ -22,11 +22,14 @@ var cateSelect = function () {
 /*----- cached element references -----*/
 var $guess = $('#guess');
 var $img = $('#hang-img')
+
 /*----- event listeners -----*/
 $('#letters').on('click', handleLetterClick);
 $('.reset').on('click', startup);
+
 /*----- functions -----*/
 startup();
+
 function startup() {
     numWrong = 0;
     messages = {

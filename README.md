@@ -1,8 +1,8 @@
 <!--<Your game's title>: A description of your game. Background info of the game and screenshots are a nice touch.-->
 # Hangman
-Test your vocabulary when it comes to the delicious sweetness that is ice cream. The mystery word is represented by dashes that represents the number of letters in the mystery letter. Words will be seperated into 3 catagories that will be chosen at random. Player will have up to 6 wrong guess before they lose the game.
+Test your vocabulary when it comes to the delicious sweetness that is ice cream. The mystery word is represented by dashes that represents the number of letters in the mystery word.The word will be chosen from 1 of 3 catagories that will be chosen at random. Player will have up to 6 wrong guesses before they lose the game and a chance to get Ice Cream!
 
-Start of game:
+Start of game
 
 <img src="http://i.imgur.com/4XLgY3V.png" width="300">
 
@@ -34,3 +34,6 @@ Subjects: Different catagories and topics will be added on to add on more variet
 
 Pictures: More fun pictures will be added to make the losing and winning experiance more fun!
 
+Hard Mode: A Timer is added!
+
+Function to allow keyboard usage instead of just clicking letters on the letters on the screen.
