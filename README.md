@@ -1,7 +1,6 @@
 <!--<Your game's title>: A description of your game. Background info of the game and screenshots are a nice touch.-->
 # Hangman
 Test your vocabulary when it comes to the delicious sweetness that is ice cream. The mystery word is represented by dashes that represents the number of letters in the mystery word.The word will be chosen from 1 of 3 catagories that will be chosen at random. Player will have up to 6 wrong guesses before they lose the game and a chance to get Ice Cream!
-![Imgur](http://i.imgur.com/XIysW09.png)
 
 Start of game
 
