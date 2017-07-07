@@ -12,11 +12,11 @@ var used=[];
 
 var cateSelect = function () {
     if (word === words[0]) {
-        document.getElementById("selectCatagory").innerHTML = "Ice Cream Flavors";
+        $("selectCatagory").innerHTML = "Ice Cream Flavors";
     } else if (word === words[1]) {
-        document.getElementById("selectCatagory").innerHTML = "Food that contains Ice Cream";
+        $("selectCatagory").innerHTML = "Food that contains Ice Cream";
     } else if (word === words[2]) {
-        document.getElementById("selectCatagory").innerHTML = "Ice Cream Toppings";
+        $("selectCatagory").innerHTML = "Ice Cream Toppings";
     }
 }
 /*----- cached element references -----*/

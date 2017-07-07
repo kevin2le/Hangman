@@ -28,12 +28,16 @@ What happends when you guess all the wrong answers
 <!--Getting Started: Installation instructions. For your game, this section will include the link to your hosted game's site.
 Next Steps: Unsolved problems and/or planned features.-->
 ### Future DLC:
-Hint button: At the cost of a wrong guess count a clue to the hidden word will be revealed
+#### Hint button: 
+At the cost of a wrong guess count a clue to the hidden word will be revealed
 
-Subjects: Different catagories and topics will be added on to add on more variety
+#### Subjects: 
+Different catagories and topics will be added on to add on more variety
 
-Pictures: More fun pictures will be added to make the losing and winning experiance more fun!
+#### Pictures: 
+More fun pictures will be added to make the losing and winning experiance more fun!
 
-Hard Mode: A Timer is added!
+#### Hard Mode: 
+A Timer is added!
 
 Function to allow keyboard usage instead of just clicking letters on the letters on the screen.
