@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     font-family: 'Exo', sans-serif;
-    color: darkmagenta;
+    color: #9966ff;
 }
 
 button {
@@ -33,6 +33,7 @@ td {
     letter-spacing: 10px;
     font-size: 40px;
     font-family: 'Exo', sans-serif;
+    color: #ff66ff;
 }
 .imgur {
     margin: auto;

@@ -3,11 +3,12 @@ var guess;
 var letterWord;
 var numWrong;
 var letterSelected; 
-var words=[["CHOCOLATE", "VANILLA", "STRAWBERRY", "NEAPOLITAN"],["MILKSHAKES", "SUNDAES", "CAKE"],["SPRINKLES","COOKIES", "CANDY", "PEANUTS"]];
+var words=[["CHOCOLATE", "VANILLA", "STRAWBERRY", "NEAPOLITAN", "MATCHA"],["MILKSHAKES", "SUNDAES", "CAKE"],["SPRINKLES","COOKIES", "MATCHA", "PEANUTS"]];
 var wordChoosen;
 var messages;
 var endGame;
 var word;
+var used=[];
 
 var cateSelect = function () {
     if (word === words[0]) {
@@ -21,11 +22,14 @@ var cateSelect = function () {
 /*----- cached element references -----*/
 var $guess = $('#guess');
 var $img = $('#hang-img')
+
 /*----- event listeners -----*/
 $('#letters').on('click', handleLetterClick);
 $('.reset').on('click', startup);
+
 /*----- functions -----*/
 startup();
+
 function startup() {
     numWrong = 0;
     messages = {
@@ -38,34 +42,36 @@ function startup() {
     guess = "_".repeat(wordChoosen.length);
     output = document.getElementById("message").innerHTML='';
     endGame= false;
+    $('td').removeClass('disable-td');
     cateSelect();
     render();
 }
 
 function handleLetterClick(event) {
-     console.log(wordChoosen)
     if (endGame === true){
        return;
     }
     letterSelected = event.target.innerHTML
-     console.log(event)
+    if (used.includes(letterSelected)){
+        return;
+    } else {
+        used.push(letterSelected);
+    }
+
     if (wordChoosen.includes(letterSelected)){
-        var pos = wordChoosen.indexOf(letterSelected);
-            while ( pos >= 0) {
+        var place = wordChoosen.indexOf(letterSelected);
+            while ( place >= 0) {
             guess =  guess.split('')
-            guess[pos] = letterSelected
+            guess[place] = letterSelected
             guess = guess.join('');
-            console.log(guess);
-            pos = wordChoosen.indexOf(letterSelected, pos +1)
+            place = wordChoosen.indexOf(letterSelected, place +1);
             }
     } else {
         numWrong+= 1;
         document.getElementById("message").innerHTML=messages.wrong
     } 
-
-    
-    $(event.target).prop('disabled', true);
-    $('#reset').on('click', startup);
+  
+    $(event.target).attr('disabled', true) 
     checkWin();
     render();
 }
@@ -83,7 +89,7 @@ function checkWin(){
 function render() {
     $('.images').hide();
     $guess.html(guess);
-    $('#wrong').html(numWrong ? 'Wrong Guesses: <span>' + numWrong + '</span>' : '');
+    $('#wrong').html(numWrong ? ' When the score hits 6 it is over!: <span>' + numWrong + '</span>' : '');
     $img.attr('src','images/img' + numWrong + '.png');
     
 }
